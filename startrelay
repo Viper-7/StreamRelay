@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /tmp
+docker run -p 8065:8000 -d viper796/streamproxy http://stream-goes-here
+docker run -p 8066:8000 -d viper796/streamproxy http://stream-goes-here
+docker run -p 8067:8000 -d viper796/streamproxy http://stream-goes-here
+docker run -p 8068:8000 -d viper796/streamproxy http://stream-goes-here
+docker run -p 8069:8000 viper796/streamproxy http://stream-goes-here
+

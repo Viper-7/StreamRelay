@@ -1,0 +1,10 @@
+[Unit]
+Description=Stream relay service
+
+[Service]
+Type=simple
+ExecStart=/bin/startrelay
+
+[Install]
+WantedBy=network.target
+
